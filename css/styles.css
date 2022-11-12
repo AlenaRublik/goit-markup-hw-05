@@ -272,6 +272,31 @@ align-items: center;
     margin-bottom: 50px;
 }
 
+.activity-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(47, 48, 58, 0.8);
+    /* backdrop-filter: blur(2px); */
+}
+
+.overlay-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
 /* team */
 .member-list {
     display: flex;
