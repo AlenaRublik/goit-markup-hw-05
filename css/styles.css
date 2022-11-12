@@ -6,6 +6,7 @@
     --accent-color: #2196f3;
     --hero-color: #2f303a;
     --adress-color: rgba(255, 255, 255, 0.6);
+    --box-shadow-color: rgba(0, 0, 0, 0.15);
     --exampels-border-color: #EEEEEE;
     --layout-color: rgba(47, 48, 58, 0.4);
     --benefits-section-bg-color: #f5f4fa;
@@ -204,6 +205,7 @@ align-items: center;
 
 .hero .button {
     background: var(--accent-color);
+    box-shadow: 0px 4px 4px var(--box-shadow-color);
     min-width: 216px;
         border-radius: 4px;
         padding: 10px 32px;
